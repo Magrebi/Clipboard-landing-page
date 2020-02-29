@@ -3,6 +3,15 @@ body {
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #a3d6ce;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -179,3 +188,63 @@ body {
 .under-icon{
     font-size: 15px;
 }
+
+.brands{
+    margin-top: 100px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.under-brands{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.under-brands .topside-buttons{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/* areas done*/
+
+footer{
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.footer-logo{
+    margin-left: 75px;
+    flex: 3;
+}
+
+.footer-logo img{
+    width: 40px;
+}
+
+.links{
+    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.links div{
+    display: inline-block;
+    width: 150px;
+    margin: 20px;
+}
+
+.social{
+    flex: 3;
+}
+
+.social img{
+    margin-right: 10px;
+}
+
+}
+
