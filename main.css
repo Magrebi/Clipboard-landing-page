@@ -3,12 +3,12 @@ body {
 
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: #a3d6ce;
 }
 
@@ -99,18 +99,19 @@ a:hover{
     top: 1px;
 }
 
-.keeptrack{
+.keeptrack {
     margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .keeptrack-text {
     font-size: 40px;
     font-weight: 600;
 }
 
-.keeptrack-explain{
+.keeptrack-explain {
     margin-top: 20px;
     text-align: center;
     width: 50%;
@@ -121,50 +122,50 @@ a:hover{
 
 /* header bitti*/
 
-.area1{
+.area1 {
     display: flex;
     flex-direction: row;
     line-height: 2;
 }
 
-.left{
+.left {
     margin-left: -20px;
 }
 
-.right{
+.right {
     padding: 100px;
 }
 
-.right .right-text{
+.right .right-text {
     margin-bottom: 20px;
     width: 350px;
     color: #d9dddf;
 }
 
-.right-bold{
+.right-bold {
     font-size: 24px;
     font-weight: 600;
 }
 
-.area2{
+.area2 {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.area2-image{
+.area2-image {
     margin-top: 100px;
 }
 
-.under-images{
+.under-images {
     display: flex;
     flex-direction: row;
     margin: 50px;
     justify-content: space-around;
 }
 
-.under-part{
+.under-part {
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -174,77 +175,264 @@ a:hover{
 }
 
 
-.under-text{
+.under-text {
     margin-top: 15px;
     color: #d9dddf;
 }
 
-.under-bold{
+.under-bold {
     margin-top: 25px;
     font-weight: 600;
     font-size: 24px;
 }
 
-.under-icon{
+.under-icon {
     font-size: 15px;
 }
 
-.brands{
+.brands {
     margin-top: 100px;
     padding: 5%;
     display: flex;
     justify-content: space-around;
 }
 
-.under-brands{
+.under-brands {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.under-brands .topside-buttons{
+.under-brands .topside-buttons {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
 /* areas done*/
 
-footer{
+footer {
     background-color: #f5f6f8;
     display: flex;
     justify-content: center;
     padding: 5%;
 }
 
-.footer-logo{
+.footer-logo {
     margin-left: 75px;
     flex: 3;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 40px;
 }
 
-.links{
+.links {
     flex: 6;
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.links div{
+.links div {
     display: inline-block;
     width: 150px;
     margin: 20px;
 }
 
-.social{
+.social {
     flex: 3;
 }
 
-.social img{
+.social img {
     margin-right: 10px;
 }
 
-}
+@media only screen and (max-width: 600px) {
 
+    .topside-texts {
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topside-texts div {
+        margin-bottom: 25px;
+    }
+
+    .catchword {
+        width: 75%;
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .catchword-explain {
+        width: 65%;
+        font-size: 19px;
+    }
+
+    .topside-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Button {
+        margin-bottom: 20px;
+    }
+
+    .keeptrack {
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .keeptrack-text {
+        font-size: 40px;
+    }
+
+    .keeptrack-explain {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* header bitti*/
+
+    .area1 {
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .left img {
+        width: 80%;
+    }
+
+    .right {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+    .right-bold {
+        text-align: center;
+    }
+
+    .area2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .area2 .keeptrack-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .area2 .keeptrack-explain {
+        width: 80%;
+    }
+
+    .area2-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .area2-image img {
+        width: 80%;
+    }
+
+    .under-images {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .under-part {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+
+    .under-text {
+        width: 70%;
+    }
+
+    .brands {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brands div {
+        margin-bottom: 50px;
+    }
+
+    .under-brands {
+        margin-top: 25px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .under-brands .keeptrack-explain {
+        width: 80%;
+    }
+
+    .under-brands .keeptrack-text {
+        width: 80%;
+    }
+
+
+    /* areas done*/
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-left: 0px;
+        flex: 1;
+    }
+
+    .footer-logo img {
+        width: 40px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .links * {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    .social {
+        flex: 1;
+    }
+
+    .social img {
+        margin-right: 30px;
+    }
+
+}
